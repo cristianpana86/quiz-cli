@@ -1,5 +1,5 @@
 {
-    "name": "certificationy/certificationy-cli",
+    "name": "cpana/quiz-cli",
     "type": "library",
     "description": "A CLI tool to train certifications",
     "keywords": [
@@ -9,38 +9,35 @@
         "test",
         "exam"
     ],
-    "homepage": "http://github.com/certificationy/certificationy-cli",
+    "homepage": "https://github.com/cristianpana86/quiz-cli",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vincent Composieux",
-            "email": "vincent.composieux@gmail.com"
-        },
-        {
-            "name": "Mickaël Andrieu",
-            "email": "andrieu.travail@gmail.com"
+            "name": "Cristian Pana",
+            "email": "cristianpana86@yahoo.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.0",
         "symfony/console": ">=3.2.13 <3.3.0 || >=3.3.6 < 4.0.0",
-        "certificationy/certificationy": "~2.0",
         "symfony/yaml": "~3.2",
-        "certificationy/symfony-pack": "~1.4",
-        "certificationy/php-pack": "~1.4"
+        "symfony/finder": "^5.0",
+        "cpana/symfony-pack": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
-        "psr-4": {"Certificationy\\Cli\\": "src"}
+        "psr-4": {"CPANA\\Quiz\\": "src"}
     },
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/" }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     }
 }

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Certificationy\Cli\Command;
+namespace CPANA\Quiz\Command;
 
-use Certificationy\Loaders\YamlLoader as Loader;
-use Certificationy\Collections\Questions;
-use Certificationy\Set;
+use CPANA\Quiz\Loaders\YamlLoader as Loader;
+use CPANA\Quiz\Collections\Questions;
+use CPANA\Quiz\Set;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\Table;
