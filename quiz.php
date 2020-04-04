@@ -13,7 +13,7 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Certificationy\Cli\Command\StartCommand;
+use CPANA\Quiz\Command\StartCommand;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Yaml\Yaml;
 

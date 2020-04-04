@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Certificationy\Loaders;
+namespace CPANA\Quiz\Loaders;
 
-use Certificationy\Interfaces\LoaderInterface;
-use Certificationy\Collections\Questions;
-use Certificationy\Collections\Answers;
-use Certificationy\Answer;
-use Certificationy\Question;
+use CPANA\Quiz\Interfaces\LoaderInterface;
+use CPANA\Quiz\Collections\Questions;
+use CPANA\Quiz\Collections\Answers;
+use CPANA\Quiz\Answer;
+use CPANA\Quiz\Question;
 
 /**
  * Able to import PHP array into a Questions collection

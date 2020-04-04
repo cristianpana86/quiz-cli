@@ -12,9 +12,9 @@
 
 namespace CPANA\Quiz\Interfaces;
 
-use Certificationy\Collections\Answers;
-use Certificationy\Collections\Questions;
-use Certificationy\Collections\UserAnswers;
+use CPANA\Quiz\Collections\Answers;
+use CPANA\Quiz\Collections\Questions;
+use CPANA\Quiz\Collections\UserAnswers;
 
 interface SetInterface
 {
